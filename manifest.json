@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Hover Card Extension",
+  "version": "1.0",
+  "description": "Displays a hover card when hovering over links.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+      {
+          "matches": ["https://x.com/*"],
+          "js": ["content.js"],
+          "run_at": "document_idle"
+      }
+      
+  ],
+  "host_permissions":[
+     "https://api.kaito.ai/api/v1/*"
+
+  ],
+  "web_accessible_resources": [
+  {
+    "resources": ["/kaito.png"],
+    "matches": ["*://x.com/*"]
+  }
+]
+
+
+}

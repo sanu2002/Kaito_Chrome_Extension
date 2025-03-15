@@ -1,0 +1,43 @@
+# Ignore compiled files and binaries
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# Ignore dependency directories
+node_modules/
+vendor/
+dist/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+temp/
+logs/
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive files
+*.env
+config.json
+secrets/
+*.key
+*.pem
+
+# Ignore build outputs
+build/
+out/
+
+# Ignore cached files
+*.cache
+__pycache__/
+*.pyc

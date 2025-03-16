@@ -18,7 +18,7 @@
   ],
   "web_accessible_resources": [
   {
-    "resources": ["/kaito.png"],
+    "resources": ["kaito.png"],
     "matches": ["*://x.com/*"]
   }
 ]
